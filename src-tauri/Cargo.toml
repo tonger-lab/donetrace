@@ -1,0 +1,39 @@
+[package]
+name = "donetrace"
+version = "0.3.0"
+description = "成迹 DoneTrace —— 个人成果记录工具"
+authors = ["DoneTrace"]
+edition = "2021"
+
+[lib]
+name = "donetrace_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+# MSVC 14.44 的 /Z7 调试记录回归（D8050）：仅对构建脚本依赖关闭调试信息绕过，
+# 自身 crate 仍保留完整调试符号
+[profile.dev.build-override]
+debug = false
+
+# 官方安装包构建：--features pro 合并 pro/ 增量（社区构建无此依赖，
+# 公开快照由 scripts/export-public.mjs 剥离本段）
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-opener = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-single-instance = "2"
+tauri-plugin-deep-link = { version = "2", optional = true }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.32", features = ["bundled"] }
+uuid = { version = "1", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "2"
+reqwest = { version = "0.12", default-features = false, features = ["json", "native-tls", "blocking"] }
+zip = "2"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+base64 = "0.22"
+sys-locale = "0.3"

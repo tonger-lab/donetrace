@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# build outputs
+dist
+dist-ssr
+
+# Tauri / Rust
+src-tauri/target
+src-tauri/gen/schemas
+
+# logs & local data
+*.log
+.pnpm-debug.log
+
+# editor / OS
+.DS_Store
+.idea
+*.local
+
+# misc
+.vscode/*
+!.vscode/extensions.json
+
+# public export artifacts
+dist-public/
+dist-public-review/
+
+# 本地安装包产物（开源版由 CI 发布到 GitHub Releases；Pro 版为商业产物，不入库）
+release/
