@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community discussions
+    url: https://github.com/tonger-lab/donetrace/discussions
+    about: Ask questions, share how you use DoneTrace, and vote on ideas.
+  - name: 📖 User guide
+    url: https://donetrace.app/guide.html
+    about: Read the official user manual (English / 简体中文).

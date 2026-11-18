@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img"><title>一小时 · 未解锁</title><g fill="none" stroke="#A1A8AA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(13 48 49)">
+<path d="M40 22 V17 C40 6 56 6 56 17 V22" fill="none" stroke="#A1A8AA" stroke-width="4"/>
+<path d="M43 18 Q48 16 53 18 L53 26 L43 26 Z" fill="#535B5E"/>
+<path d="M48 22 C67 21 81 36 81 55 C81 73 68 86 48 86 C30 86 17 73 17 55 C17 38 30 23 48 22 Z" fill="#4D5456"/>
+<circle cx="47" cy="52" r="31" fill="#53595B"/>
+<circle cx="47" cy="52" r="24.5" fill="#3A4144"/>
+<path d="M47 32 L47 36 M67 52 L63 52 M47 72 L47 68 M27 52 L31 52" fill="none" stroke="#A1A8AA" stroke-width="2.6"/>
+<path d="M47 52 L40 44" fill="none" stroke="#A1A8AA" stroke-width="3.5"/>
+<path d="M47 52 L56 38" fill="none" stroke="#667074" stroke-width="3.8"/>
+<circle cx="47" cy="52" r="2.5" fill="#A1A8AA" stroke="none"/>
+</g></g></svg>

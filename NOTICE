@@ -1,0 +1,20 @@
+# NOTICE
+
+DoneTrace — a local-first achievement tracker for knowledge workers.
+
+Copyright (c) 2026 DoneTrace.
+
+This product includes software developed by the DoneTrace project and is
+licensed under the Apache License, Version 2.0 (see the LICENSE file).
+
+## Trademark & Brand
+
+"DoneTrace" and the DoneTrace logo are trademarks of the DoneTrace project.
+The Apache License 2.0 grants code rights only and does **not** grant any
+trademark rights.
+
+- You may fork and modify the code under Apache-2.0, but a modified or
+  redistributed version may not use the "DoneTrace" name, logo, or branding
+  in a way that implies it is the official DoneTrace product.
+- If you distribute a modified version, please state clearly that it is a
+  derivative work and is not affiliated with or endorsed by DoneTrace.
